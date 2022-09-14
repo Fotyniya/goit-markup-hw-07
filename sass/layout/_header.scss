@@ -1,0 +1,22 @@
+.page-header-container {
+    display: flex;
+    align-items: baseline; 
+}
+.page-navigation {
+    display: flex;
+    align-items: baseline;
+}
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.menu-nav {
+    display: flex;
+    column-gap: 50px;
+}
+.header-contacts {
+    display: flex;
+    margin-left: auto;
+    column-gap: 50px;
+}
