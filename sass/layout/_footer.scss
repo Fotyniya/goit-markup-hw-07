@@ -10,29 +10,41 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    &:not(:last-child) {
+        margin-bottom: 9px;
+    }
 }
-.contacts-item:not(:last-child) {
-    margin-bottom: 9px;
-}
+
 .address {
     display: block;
     color: #ffffff;
     transition: color var(--transition-timing-function);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
-.mail-footer, 
+
+.mail-footer {
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+    transition: color var(--transition-timing-function);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+} 
+
 .phone-footer {
     color: rgba(255, 255, 255, 0.6);
     display: block;
     transition: color var(--transition-timing-function);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
-.address:hover,
-.address:focus,
-.mail-footer:hover,
-.mail-footer:focus,
-.phone-footer:hover,
-.phone-footer:focus {
-    color: var(--accent-color);
-}
+
 .title-social {
     font-weight: 700;
     font-size: 14px;
@@ -84,11 +96,11 @@ footer .social-list-link {
     background-color: transparent;
     padding: 15px 16px;
     color: #FFFFFF;
-}
-.input-sign::placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    &::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
 }

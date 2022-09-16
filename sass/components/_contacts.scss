@@ -8,27 +8,29 @@
     letter-spacing: 0.02em;
     color: var(--text-color);
     transition: color var(--transition-timing-function);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
-.contacts-link:hover .mail-icon, 
-.contacts-link:focus .mail-icon,
-.contacts-link:hover .smartphone-icon, 
-.contacts-link:focus .smartphone-icon{
-    fill:var(--accent-color);
-}
-.contacts-link:hover,
-.contacts-link:focus
-{
-    color: var(--accent-color);
-}
+
 .mail-icon {
     width: 16px;
     height: 12px;
     fill: var(--text-color);
     transition: fill var(--transition-timing-function);
+    .contacts-link:hover &, 
+    .contacts-link:focus & {
+        fill:var(--accent-color);
+    }
 }
 .smartphone-icon {
     width: 10px;
     height: 16px;
     fill: var(--text-color); 
     transition: fill var(--transition-timing-function);
+    .contacts-link:hover &, 
+    .contacts-link:focus & {
+        fill:var(--accent-color);
+    }
 }
