@@ -4,7 +4,13 @@
     padding-bottom: 60px;
     min-width: 1200px;
 }
-.contacts-item {
+
+.contacts-block {
+    display: flex;
+    align-items: baseline;
+}
+
+.contacts__item {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -15,7 +21,7 @@
     }
 }
 
-.address {
+.contacts__address {
     display: block;
     color: #ffffff;
     transition: color var(--transition-timing-function);
@@ -25,7 +31,7 @@
     }
 }
 
-.mail-footer {
+.contacts__mail {
     color: rgba(255, 255, 255, 0.6);
     display: block;
     transition: color var(--transition-timing-function);
@@ -35,7 +41,7 @@
     }
 } 
 
-.phone-footer {
+.contacts__tel {
     color: rgba(255, 255, 255, 0.6);
     display: block;
     transition: color var(--transition-timing-function);
@@ -45,7 +51,8 @@
     }
 }
 
-.title-social {
+.social-footer__title,
+.form-sign__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -54,17 +61,14 @@
     color: #FFFFFF;
     margin-bottom: 20px;
 }
-.contacts-block {
-    display: flex;
-    align-items: baseline;
-}
-.social-list-footer {
+
+.social-footer__list {
     padding-bottom: 0;
 }
-footer .social-list-icon {
+footer .social-list__icon {
     fill: #ffffff;
 }
-footer .social-list-link {
+footer .social-list__link {
     background-color: rgba(255, 255, 255, 0.1);;
 }
 .social-footer {
@@ -73,11 +77,11 @@ footer .social-list-link {
 .form-sign {
     margin-left: auto;
 }
-.form-sign-email-input {
+.form-sign__input {
     display: flex;
     justify-content: center;
 }
-.btn-sign {
+.form-sign__btn {
     display: flex;
     justify-content: center;
     width: 200px;
@@ -85,10 +89,10 @@ footer .social-list-link {
     margin-left: 12px;
     padding: 10px 28px;
 }
-.icon-send {
+.form-sign__icon {
     margin-left: 10px;
 }
-.input-sign {
+.form-sign__field {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);

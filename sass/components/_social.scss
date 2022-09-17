@@ -4,7 +4,7 @@
     column-gap: 10px;
     padding-bottom: 30px;
 }
-.social-list-link {
+.social-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,13 +18,13 @@
         background-color: var(--accent-color);
     }
 }
-.social-list-icon {
+.social-list__icon {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
     transition: fill var(--transition-timing-function);
-    .social-list-link:hover &,
-    .social-list-link:focus &{
+    .social-list__link:hover &,
+    .social-list__link:focus &{
         fill: #ffffff;
     } 
 }
