@@ -363,8 +363,8 @@ section {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-color);
   margin-bottom: 12px;
 }
@@ -373,7 +373,7 @@ section {
   margin-bottom: 10px;
 }
 
-.modal-form-input {
+.modal__form-input {
   outline: none;
   width: 100%;
   height: 40px;
@@ -382,7 +382,7 @@ section {
   padding-left: 42px;
   transition: border-color var(--transition-timing-function);
 }
-.modal-form-input:focus {
+.modal__form-input:focus {
   border-color: var(--accent-color);
 }
 
@@ -390,7 +390,7 @@ section {
   display: block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: var(--text-color);
   margin-bottom: 4px;
