@@ -66,10 +66,7 @@
         border-color: var(--accent-color);
     }
     &::placeholder {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.01em;
+        @include font(400, 12px, 14px, 0.01em);
         color: rgba(117, 117, 117, 0.5);
     }
 }
@@ -108,17 +105,11 @@
 }
 .modal__form-checkbox-field {
     margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font(400, 14px, 24px, 0.03em);
     color: var(--text-color);
 }
 .modal__form-link-terms {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font(400, 14px, 24px, 0.03em);
     color: var(--accent-color);
 }
 .modal__button-submit {

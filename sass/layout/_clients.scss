@@ -4,9 +4,7 @@
     gap: 30px;
 }
 .clients__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     width: 170px;

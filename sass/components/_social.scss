@@ -1,13 +1,10 @@
 .social-list {
-    display: flex;
-    justify-content: center;
+    @extend %align;
     column-gap: 10px;
     padding-bottom: 30px;
 }
 .social-list__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
     width: 44px;
     height: 44px;
     background-color: #ffffff;
