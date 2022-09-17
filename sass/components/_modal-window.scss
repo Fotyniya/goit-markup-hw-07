@@ -8,7 +8,7 @@
     height: 581px;
     padding: 40px;
 }
-.modal-close-btn {
+.modal__close-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,10 +22,10 @@
     background-color: transparent;
     padding: 0;
 }
-.modal-close-icon {
+.modal__close-icon {
     fill: #000000;
     transition: fill var(--transition-timing-function);
-    .modal-close-btn:hover & {
+    .modal__close-btn:hover & {
         fill: var(--accent-color);
     }
 }

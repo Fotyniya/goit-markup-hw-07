@@ -1,15 +1,15 @@
 .activity {
     padding-top: 0px;
 }
-.activity-cards {
+.activity__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;   
 }
-.activity-cards-item {
+.activity__item {
     position: relative;
 }
-.activity-cards-subtitle {
+.activity__description {
     position: absolute;
     bottom: 0;
     height: 70px;

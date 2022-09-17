@@ -4,7 +4,7 @@
     justify-content: center;
     gap: 8px;
 }
-.button-filter {
+.btn-filter-container__btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -24,7 +24,7 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
     }
 }
-.btn-filter-allcards {
+.btn-filter-container__btn_allcards {
     padding-left: 25px;
     padding-right: 25px;
 }

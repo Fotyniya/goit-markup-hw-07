@@ -1,10 +1,10 @@
-.feature-items-list {
+.feature__list {
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
 }
-.feature-items{
+.feature__item{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
     border-radius: 4px;
     margin-bottom: 30px;
 }
-.feature-items-icon {
+.feature__item-icon {
     display: flex;
     justify-content: center;
     align-items: center;

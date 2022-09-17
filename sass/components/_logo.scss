@@ -5,19 +5,19 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.logo-header {
+.page-navigation__logo {
     margin-right: 96px;
 }
-.logo-web {
+.logo__logo-web {
     color: var(--accent-color);
 }
-.logo-studio-header { 
-    color: var(--logo-studio-header);
+.logo__logo-studio_light-theme { 
+    color: var(--logo-studio-dark);
 }
-.logo-studio-footer {
-    color: var(--logo-studio-footer);
+.logo__logo-studio_dark-theme {
+    color: var(--logo-studio-light);
 }
-.logo-footer {
+.footer__logo {
     display: block;
     margin-bottom: 20px;
 }

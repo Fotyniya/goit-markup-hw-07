@@ -1,9 +1,9 @@
-.clients-list {
+.clients__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
-.clients-link {
+.clients__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,12 +19,12 @@
     }
 }
 
-.clients-icon {
+.clients__logo {
     display: flex;
     fill: #AFB1B8; 
     transition: fill var(--transition-timing-function);
-    .clients-link:hover &,
-    .clients-link:focus & {
+    .clients__link:hover &,
+    .clients__link:focus & {
         fill: var(--accent-color);
     }
 }

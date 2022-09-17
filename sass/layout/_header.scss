@@ -1,17 +1,20 @@
-.page-header-container {
+.page-header__container {
     display: flex;
     align-items: baseline; 
 }
-.page-navigation {
-    display: flex;
-    align-items: baseline;
-}
+
 .page-header {
     border-bottom: 1px solid #ECECEC;
     padding-top: 24px;
     padding-bottom: 25px;
 }
-.menu-nav {
+
+.page-navigation {
+    display: flex;
+    align-items: baseline;
+}
+
+.menu {
     display: flex;
     column-gap: 50px;
 }

@@ -1,4 +1,4 @@
-.contacts-link {
+.header-contacts__link {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -19,8 +19,8 @@
     height: 12px;
     fill: var(--text-color);
     transition: fill var(--transition-timing-function);
-    .contacts-link:hover &, 
-    .contacts-link:focus & {
+    .header-contacts__link:hover &, 
+    .header-contacts__link:focus & {
         fill:var(--accent-color);
     }
 }
@@ -29,8 +29,8 @@
     height: 16px;
     fill: var(--text-color); 
     transition: fill var(--transition-timing-function);
-    .contacts-link:hover &, 
-    .contacts-link:focus & {
+    .header-contacts__link:hover &, 
+    .header-contacts__link:focus & {
         fill:var(--accent-color);
     }
 }
